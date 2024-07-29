@@ -21,7 +21,11 @@ p {
     text-align: center;
     width: 1440px;
     height: 550px;
-    margin: 60px auto;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: hsl(212, 45%, 89%);
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2);
 }
@@ -33,14 +37,15 @@ img {
 }
 
 .foreground {
-    position: fixed;
-    width: 290px;
+    
+    width: 20%;
     height: 420px;
     background-color: white;
+    margin: 0;
+    position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -230px;
-    margin-left: -140px;
+    transform: translate(-50%, -50%);
     padding-top: 20px;
     border-radius: 1em;
     box-shadow: 0 12px 20px 2px rgba(0, 0, 0, 0.2);
@@ -48,5 +53,8 @@ img {
 }
 
 .attribution {
-    position: static;
+    position: absolute;
+    left: 41%;
+    padding-top: 20px;
+    bottom: 10px;
 }
