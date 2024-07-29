@@ -1,6 +1,8 @@
 body {
     font-family:'Outfit', sans-serif;
     font-size: 15;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
 }
 
 p {
@@ -26,8 +28,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: hsl(212, 45%, 89%);
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2);
+    
 }
 
 img {
